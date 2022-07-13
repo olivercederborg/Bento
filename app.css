@@ -10,7 +10,7 @@
 //  ┘ ┴ ┴┴└─┴┴ ┴└─┘┴─┘└─┘└─┘ 
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"); /* Font Import */
 
 :root {
   /* Font Size */
@@ -39,13 +39,13 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #ea9a97; /* Hover color */
+  --background: #232136; /* Background color */
+  --cards: #2a273f; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #e0def4; /* Foreground color */
+  --sfg: #2a283e; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -64,7 +64,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: 0.2s ease-in-out;
 }
 
